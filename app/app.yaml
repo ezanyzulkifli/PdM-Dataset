@@ -1,0 +1,8 @@
+runtime: python310
+#app_engine_apis: true
+
+entrypoint: python main.py
+
+handlers:
+  - url: /.*
+    script: auto
